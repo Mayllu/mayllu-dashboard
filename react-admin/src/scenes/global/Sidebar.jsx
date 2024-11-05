@@ -133,21 +133,21 @@ const CustomSidebar = () => {  // Cambio de nombre aquí
                             Data
                         </Typography>
                         <Item
-                            title="Manage Team"
+                            title="Equipo Mayllu Municipalidad"
                             to="/team"
                             icon={<PeopleOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Contacts Information"
+                            title="Contacto"
                             to="/contacts"
                             icon={<ContactsOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Invoices Balances"
+                            title="Facturas"
                             to="/invoices"
                             icon={<ReceiptOutlinedIcon />}
                             selected={selected}
@@ -162,21 +162,21 @@ const CustomSidebar = () => {  // Cambio de nombre aquí
                             Pages
                         </Typography>
                         <Item
-                            title="Profile Form"
+                            title="Formulario de perfil"
                             to="/form"
                             icon={<PersonOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="Calendar"
+                            title="Calendario"
                             to="/calendar"
                             icon={<CalendarTodayOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
-                            title="FAQ Page"
+                            title="FAQ"
                             to="/faq"
                             icon={<HelpOutlineOutlinedIcon />}
                             selected={selected}
